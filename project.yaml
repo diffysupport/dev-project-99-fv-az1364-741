@@ -1,0 +1,64 @@
+basic:
+    name: 'Demo test project'
+    environments:
+        production: 'https://wordpress.diffy.website'
+        staging: 'http://stage.wordpress.diffy.website'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /2019/01
+        - /sample-page
+        - /2019/03/12/hello-world
+        - /category/uncategorized
+        - /2019/03/01/delectus-quia-esse-aut
+        - /2019/04/01/tempora-ut-similique-corporis-sit
+        - /2019/02/08/sed-natus-molestiae-ullam-sint-quia
+        - /2019/02/02/quo-suscipit-aut-et-est-adipisci-qui
+        - /2019/02/12/qui-officia-et-veniam-sit-quibusdam-non
+        - /2019/03/16/sunt-praesentium-animi-sed-omnis-ut-iste
+        - '/2019/04/01/tempora-ut-similique-corporis-sit/#respond'
+        - '/2019/02/08/sed-natus-molestiae-ullam-sint-quia/#respond'
+        - /2019/02/01/quaerat-earum-aut-reiciendis-vitae-aut-dolore
+        - '/2019/02/02/quo-suscipit-aut-et-est-adipisci-qui/#respond'
+        - '/2019/02/12/qui-officia-et-veniam-sit-quibusdam-non/#respond'
+        - '/2019/03/16/sunt-praesentium-animi-sed-omnis-ut-iste/#respond'
+        - /2019/03/21/voluptatibus-tenetur-iste-commodi-officiis-repellat
+        - /2019/04/03/ratione-laboriosam-velit-quibusdam-animi-maiores-labore-vel
+        - '/2019/03/21/voluptatibus-tenetur-iste-commodi-officiis-repellat/#respond'
+        - '/2019/04/03/ratione-laboriosam-velit-quibusdam-animi-maiores-labore-vel/#respond'
+    monitoring:
+        days: {  }
+        type: ''
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 10
+    scroll: false
+    headers:
+        - { header: user-agent, value: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    login:
+        type: ''
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: false
